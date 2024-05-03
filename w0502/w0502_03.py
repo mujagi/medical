@@ -24,7 +24,7 @@ headers = {"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/5
 browser = webdriver.Chrome()
 browser.maximize_window()
 url = "https://www.yanolja.com/?utm_source=google_sa&utm_medium=cpc&utm_campaign=20738115572&utm_content=160897187931&utm_term=kwd-327025203539&gad_source=1&gclid=CjwKCAjw88yxBhBWEiwA7cm6pT5FGOcAUcPyDLwId3DhHnltSZnfin7raDlh63_Oci_b2iO1alyTUxoCF8AQAvD_BwE"
-browser.maximize_window()
+
 browser.get(url)
 
 # 파일저장
