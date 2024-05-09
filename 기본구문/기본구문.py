@@ -23,3 +23,4 @@
 # df.head(3)
 ###
 # & = and , | = or
+# df.sort_index(ascending=False) #sort_index 순차정렬, sourt_index(ascending=False) 역순정렬
