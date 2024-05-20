@@ -4,6 +4,7 @@ def to_csv(name, maxdata):
     lbl_f = open("./mnist/"+name+"-labels-idx1-ubyte", "rb")
     img_f = open("./mnist/"+name+"-images-idx3-ubyte", "rb")
     csv_f = open("./mnist/"+name+".csv", "w", encoding="utf-8")
+    
     # 헤더 정보 읽기 --- (※1)
     mag, lbl_count = struct.unpack(">II", lbl_f.read(8))
     mag, img_count = struct.unpack(">II", img_f.read(8))
